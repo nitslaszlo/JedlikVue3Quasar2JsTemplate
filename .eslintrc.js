@@ -6,7 +6,7 @@ module.exports = {
 
   parserOptions: {
     parser: '@babel/eslint-parser',
-    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
+    ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module' // Allows for the use of imports
   },
 
@@ -17,7 +17,7 @@ module.exports = {
   // Rules order is important, please avoid shuffling them
   extends: [
     // Base ESLint recommended rules
-    // 'eslint:recommended',
+    'eslint:recommended',
 
 
     // Uncomment any of the lines below to choose desired strictness,
@@ -61,6 +61,10 @@ module.exports = {
 
 
     // allow debugger during development only
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'semi': ['error', 'always'],
+    'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+    'comma-dangle': ['error', 'never']
   }
 }

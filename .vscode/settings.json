@@ -9,5 +9,4 @@
   "vetur.experimental.templateInterpolationService": true,
   "prettier.trailingComma": "none",
   "prettier.singleQuote": true
-
 }

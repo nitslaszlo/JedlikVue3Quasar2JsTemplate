@@ -2,7 +2,11 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "octref.vetur"
+    "octref.vetur",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "eamodio.gitlens",
+    "pkief.material-icon-theme"
   ],
   "unwantedRecommendations": [
     "hookyqr.beautify",

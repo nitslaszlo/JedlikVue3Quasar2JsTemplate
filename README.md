@@ -28,5 +28,5 @@ See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js
 ### Quasar routing ###
 https://quasar.dev/layout/routing-with-layouts-and-pages
 
-### Unit test with Jest ###
-https://testing.quasar.dev/packages/unit-jest/
+### Quasar testing ###
+https://testing.quasar.dev/

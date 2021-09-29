@@ -30,3 +30,9 @@ https://quasar.dev/layout/routing-with-layouts-and-pages
 
 ### Quasar testing ###
 https://testing.quasar.dev/
+
+### Material icons ###
+https://fonts.google.com/icons?selected=Material+Icons
+
+### Quasar admin template ###
+https://github.com/pratik227/quasar-admin

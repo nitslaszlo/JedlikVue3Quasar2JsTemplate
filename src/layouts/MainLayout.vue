@@ -57,13 +57,13 @@ const menuList = [
     separator: false
   },
   {
-    icon: 'home',
+    icon: 'api',
     label: 'Example',
     route:'/example',
     separator: false
   },
   {
-    icon: 'home',
+    icon: 'info',
     label: 'About',
     route:'/about',
     separator: true

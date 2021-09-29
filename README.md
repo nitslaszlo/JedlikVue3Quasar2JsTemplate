@@ -34,5 +34,5 @@ https://testing.quasar.dev/
 ### Material icons ###
 https://fonts.google.com/icons?selected=Material+Icons
 
-### Quasar admin template ###
+### Quasar admin template (examples) ###
 https://github.com/pratik227/quasar-admin

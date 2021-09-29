@@ -20,16 +20,22 @@
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
         <template v-for="(menuItem, index) in menuList" :key="index">
-              <q-item clickable :to="menuItem.route" :active="menuItem.label === 'Outbox'" v-ripple>
-                <q-item-section avatar>
-                  <q-icon :name="menuItem.icon" />
-                </q-item-section>
-                <q-item-section>
-                  {{ menuItem.label }}
-                </q-item-section>
-              </q-item>
-              <q-separator :key="'sep' + index"  v-if="menuItem.separator" />
-            </template>
+          <q-item
+            clickable
+            :to="menuItem.route"
+            :active="menuItem.label === 'Outbox'"
+            v-ripple
+          >
+            <q-item-section avatar>
+              <q-icon :name="menuItem.icon" />
+            </q-item-section>
+            <q-item-section>
+              {{ menuItem.label }}
+            </q-item-section>
+          </q-item>
+          <q-separator :key="'sep' + index" v-if="menuItem.separator" />
+        </template>
+        
         <q-item-label header> Essential Links </q-item-label>
 
         <EssentialLink
@@ -53,19 +59,19 @@ const menuList = [
   {
     icon: 'home',
     label: 'Index',
-    route:'/',
+    route: '/',
     separator: false
   },
   {
     icon: 'api',
     label: 'Example',
-    route:'/example',
+    route: '/example',
     separator: false
   },
   {
     icon: 'info',
     label: 'About',
-    route:'/about',
+    route: '/about',
     separator: true
   }
 ];

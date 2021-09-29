@@ -6,16 +6,16 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
-  </q-page> 
+  </q-page>
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
 import ExampleComponent from 'components/ExampleComponent.vue';
 
 export default defineComponent({
   name: 'PageExample',
-  components: { ExampleComponent},
+  components: { ExampleComponent },
   setup() {
     const todos = ref([
       {
@@ -29,20 +29,18 @@ export default defineComponent({
       {
         id: 3,
         content: 'content 3'
-      },
-      {
-        id: 4,
-        content: 'content 4'
-      },
-      {
-        id: 5,
-        content: 'content 5'
       }
     ]);
+
     const meta = ref({
       totalCount: 1200
     });
+
+    onMounted(() => {
+      console.log('mounted!');
+    });
+
     return { todos, meta };
-  } 
+  }
 });
 </script>

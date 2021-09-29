@@ -25,6 +25,9 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js).
 
+### Vue.js devtools beta for Vue3 ###
+https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg
+
 ### Quasar routing ###
 https://quasar.dev/layout/routing-with-layouts-and-pages
 

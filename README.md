@@ -27,6 +27,7 @@ See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js
 
 ### Vue.js devtools beta for Vue3 ###
 https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg
+Switch on "A fájlok URL-címeihez való hozzáférés engedélyezése" options.
 
 ### Quasar routing ###
 https://quasar.dev/layout/routing-with-layouts-and-pages

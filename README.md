@@ -43,3 +43,6 @@ https://github.com/pratik227/quasar-admin
 
 ### Quasar awesome links ###
 https://github.com/pratik227/quasar-awesome
+
+### Starter template for Vite + TypeScript + Quasar ####
+https://github.com/xuzuodong/Vue-3-TypeScript-Vite-Tailwind-Quasar/tree/tailwind

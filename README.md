@@ -40,3 +40,6 @@ https://fonts.google.com/icons?selected=Material+Icons
 
 ### Quasar admin template (examples) ###
 https://github.com/pratik227/quasar-admin
+
+### Quasar awesome links ###
+https://github.com/pratik227/quasar-awesome

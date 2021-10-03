@@ -1,12 +1,15 @@
 {
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.trimAutoWhitespace": false,
   "editor.minimap.enabled": false,
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "eslint.run": "onSave",
   "vetur.validation.template": false,
   "vetur.format.enable": false,
   "vetur.experimental.templateInterpolationService": true,
@@ -16,5 +19,12 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#333333",
+    "statusBar.debuggingBackground": "#263238"
+  }
 }

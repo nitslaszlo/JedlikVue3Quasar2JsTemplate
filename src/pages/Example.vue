@@ -10,37 +10,36 @@
 </template>
 
 <script>
-import { defineComponent, ref, onMounted } from 'vue';
+import { defineComponent, onMounted, reactive, toRefs } from 'vue';
 import ExampleComponent from 'components/ExampleComponent.vue';
 
 export default defineComponent({
   name: 'PageExample',
   components: { ExampleComponent },
   setup() {
-    const todos = ref([
-      {
-        id: 1,
-        content: 'content 1'
-      },
-      {
-        id: 2,
-        content: 'content 2'
-      },
-      {
-        id: 3,
-        content: 'content 3'
-      }
-    ]);
-
-    const meta = ref({
-      totalCount: 1200
+    const state = reactive({
+      meta: { totalCount: 1200 },
+      todos: [
+        {
+          id: 1,
+          content: 'content 1'
+        },
+        {
+          id: 2,
+          content: 'content 2'
+        },
+        {
+          id: 3,
+          content: 'content 3'
+        }
+      ]
     });
 
     onMounted(() => {
       console.log('mounted!');
     });
 
-    return { todos, meta };
+    return { ...toRefs(state) };
   }
 });
 </script>

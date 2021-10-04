@@ -35,7 +35,7 @@
           </q-item>
           <q-separator :key="'sep' + index" v-if="menuItem.separator" />
         </template>
-        
+
         <q-item-label header> Essential Links </q-item-label>
 
         <EssentialLink
@@ -133,13 +133,15 @@ export default defineComponent({
   setup() {
     const leftDrawerOpen = ref(false);
 
+    function toggleLeftDrawer() {
+      leftDrawerOpen.value = !leftDrawerOpen.value;
+    }
+
     return {
       essentialLinks: linksList,
       menuList: menuList,
       leftDrawerOpen,
-      toggleLeftDrawer() {
-        leftDrawerOpen.value = !leftDrawerOpen.value;
-      }
+      toggleLeftDrawer
     };
   }
 });

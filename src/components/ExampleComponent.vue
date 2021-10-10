@@ -17,7 +17,7 @@ import { defineComponent, computed, ref, toRef } from 'vue';
 
 function useClickCount() {
   const clickCount = ref(0);
-  
+
   function increment() {
     clickCount.value += 1;
     return clickCount.value;

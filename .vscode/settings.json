@@ -8,6 +8,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.trimAutoWhitespace": false,
   "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
   "eslint.run": "onSave",
   "vetur.validation.template": false,
@@ -18,8 +19,10 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
